@@ -1,0 +1,55 @@
+.charList {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+    .charItem, li {
+        margin: 0.5rem 0 0.5rem 1rem;
+        max-width: 200px;
+        max-height: 270px;
+        list-style-type: none;
+        background-color: rgb(36, 40, 47);
+        box-shadow: 3px 4px 3px 0 #242423;
+        text-align: center;
+        border-radius: 20px;
+        color: #efefef;
+        img {
+            width:100%;
+            border-radius: 20px 20px 0 0;
+        }
+    }
+    .charItem:hover {
+        transform: scale(1.03);
+    }
+    .charLink {
+        text-decoration: none;
+        color: #efefef;
+    }
+    .charLink:hover {
+        color: #f4ff6f;
+    }
+}
+
+.box-button-more {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    
+    button {
+        border: none;
+        background: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 1rem;
+        font-weight: 900;
+        color: #efefef;
+    }
+    & :hover {
+        background: #16acc9;
+        border-radius: 10px;
+        box-shadow: 3px 4px 3px 0 #d2da4b;
+    }
+    i {
+        margin-left: 0.5rem;
+    }
+}

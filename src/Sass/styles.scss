@@ -1,0 +1,30 @@
+$h: 100%;
+$w: 100%;
+
+html {
+    height: $h;
+}
+body{
+    height: 100%;
+    overflow-x: hidden;
+    background: url('https://i.imgur.com/J7fakfH.png') no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+@import "/components/home";
+@import "/components/character";
+@import "/components/search";
+@import "/components/charList";
+@import "/components/header";
+@import "/components/footer";
+@import "/components/loader";
+@import "/components/not-found";

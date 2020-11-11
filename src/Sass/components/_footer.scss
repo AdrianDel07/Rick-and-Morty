@@ -1,0 +1,52 @@
+$color: #24282f;
+$color-w: #eeffee;
+
+footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+    background-image: linear-gradient(120deg, #a63dc0 0%, #542bca 100%);  
+    align-items: center;
+    
+    .text-by {
+        color: $color;
+        font-size: 15px;
+        font-weight: 700;
+        a {
+            text-decoration: none;
+            color: $color-w;
+        }
+        & :hover {
+            color: #fcb83b;
+        }
+    }
+}
+.chapters{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: $color;
+    font-weight: 500;
+    h4 {
+        margin: 0;
+        color: $color;
+        margin-right: 5px;
+    }
+}
+.social_wrap {
+    ul {
+        display: flex;
+    }
+    li {
+        margin-right: 1rem;
+        list-style-type: none;
+        font-size: 20px;
+        i {
+            color: $color;
+        }
+        & :hover {
+            color: $color-w;
+        }
+    }
+}
